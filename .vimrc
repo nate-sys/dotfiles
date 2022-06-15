@@ -1,4 +1,3 @@
-let g:polyglot_disabled = ['markdown']
 set autoindent
 set expandtab
 set shiftround
@@ -9,6 +8,8 @@ set tabstop=4
 set linebreak
 set sidescrolloff=5
 syntax enable
+filetype plugin on
+set omnifunc=syntaxcomplete#Complete
 set wrap
 set relativenumber
 set background=dark
