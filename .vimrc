@@ -1,3 +1,4 @@
+let g:polyglot_disabled = ['markdown']
 set autoindent
 set expandtab
 set shiftround
