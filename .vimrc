@@ -15,6 +15,8 @@ set relativenumber
 set background=dark
 set backspace=indent,eol,start
 
+colorscheme elflord
+
 set nocompatible
 set path+=**
 set wildmenu
