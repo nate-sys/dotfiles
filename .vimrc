@@ -1,9 +1,9 @@
 set autoindent
 set expandtab
 set shiftround
-set shiftwidth=4
+set shiftwidth=2
 set smarttab
-set tabstop=4
+set tabstop=2
 
 set linebreak
 set sidescrolloff=5
@@ -15,7 +15,7 @@ set relativenumber
 set background=dark
 set backspace=indent,eol,start
 
-colorscheme elflord
+colorscheme pablo
 
 set nocompatible
 set path+=**
