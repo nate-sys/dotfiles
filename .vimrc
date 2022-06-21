@@ -8,6 +8,7 @@ set tabstop=2
 set linebreak
 set sidescrolloff=5
 syntax enable
+set nowrap
 filetype plugin on
 set omnifunc=syntaxcomplete#Complete
 set wrap
