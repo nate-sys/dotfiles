@@ -1,6 +1,4 @@
----
 # Nate's dotfiles
----
 ### files included
 - vimrc
 - bashrc
