@@ -119,5 +119,7 @@ alias v='vim'
 export EDITOR='vim'
 export VISUAL='vim'
 
+alias gaa='git add .'
+alias gc='git commit -m'
 
 export PS1="\[\033[01;30m\]\u \[\033[31m\]$ \[\033[00;37m\]"
