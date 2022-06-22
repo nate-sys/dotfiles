@@ -11,7 +11,6 @@ syntax enable
 set nowrap
 filetype plugin on
 set omnifunc=syntaxcomplete#Complete
-set wrap
 set relativenumber
 set background=dark
 set backspace=indent,eol,start
