@@ -14,9 +14,11 @@ set omnifunc=syntaxcomplete#Complete
 set relativenumber
 set background=dark
 set backspace=indent,eol,start
-
 colorscheme pablo
 
 set nocompatible
 set path+=**
 set wildmenu
+
+set foldmethod=indent
+hi Folded ctermbg=NONE guibg=NONE
