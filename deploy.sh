@@ -9,7 +9,7 @@ cd dist
 git add .
 git commit -m 'deploy'
 
-#git remote add origin https://github.com/nate-sys/nate-sys.github.io
+#git remote add origin https://github.com/nate-sys/
 git push origin master:dist
 
 cd -
