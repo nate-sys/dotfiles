@@ -1,4 +1,5 @@
 # Nate's dotfiles
+A collection of my config files, scripts, ...etc
 ### files included
 - vimrc
 - bashrc
