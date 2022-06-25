@@ -22,3 +22,4 @@ set wildmenu
 
 set foldmethod=indent
 hi Folded ctermbg=NONE guibg=NONE
+set foldnestmax=2
