@@ -12,9 +12,12 @@ set nowrap
 filetype plugin on
 set omnifunc=syntaxcomplete#Complete
 set relativenumber
-set background=dark
+set number
 set backspace=indent,eol,start
-colorscheme pablo
+
+set background=dark
+colorscheme gruvbox
+
 
 set nocompatible
 set path+=**
