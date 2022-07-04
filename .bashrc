@@ -116,6 +116,7 @@ if ! shopt -oq posix; then
 fi
 
 alias v='vim'
+alias vn='vim ~/Documents/.notes/'
 export EDITOR='vim'
 export VISUAL='vim'
 

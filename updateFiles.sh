@@ -2,4 +2,5 @@
 set -e
 cp ~/.vimrc .
 cp ~/.bashrc .
+cp ~/.profile .
 
