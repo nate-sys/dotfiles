@@ -84,7 +84,7 @@ fi
 
 alias ll='ls -alF'
 alias la='ls -A'
-alias l='ls -CF'
+alias l='pwd && ls -CF'
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 
 if [ -f ~/.bash_aliases ]; then
@@ -107,4 +107,15 @@ export VISUAL='vim'
 alias gaa='git add .'
 alias gc='git commit -m'
 
-export PS1="\n\e[7;1;36m \u \e[0m\e[7;96m \w \e[0m\e[0;36m [\A] \e[0m \n\e[1;36m >\e[m "
+c(){
+  cd $1
+  RET=$?
+  tree -L 1
+  pwd
+  return $RET
+}
+export PS1="\e[7;1;96m \u \e[0m\e[1;36m >\e[m "
+
+# rust stuff
+. "$HOME/.cargo/env"
+

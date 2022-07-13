@@ -27,3 +27,4 @@ if [ -d "$HOME/.local/bin" ] ; then
 fi
 
 export NOTES=/home/nate/Documents/.notes
+. "$HOME/.cargo/env"

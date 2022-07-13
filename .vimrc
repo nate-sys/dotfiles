@@ -25,4 +25,9 @@ set wildmenu
 
 set foldmethod=indent
 hi Folded ctermbg=NONE guibg=NONE
-set foldnestmax=2
+set nofoldenable
+
+let g:rust_fold = 1
+let g:rustfmt_autosave = 1
+let g:rustfmt_fail_silently = 1
+
