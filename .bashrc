@@ -84,7 +84,15 @@ fi
 
 alias ll='ls -alF'
 alias la='ls -A'
-alias l='pwd && ls -CF'
+alias l='tree -L 1 && pwd'
+alias lg='tree --gitignore && pwd'
+c(){
+  cd $1
+  RET=$?
+  tree -L 1
+  pwd
+  return $RET
+}
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 
 if [ -f ~/.bash_aliases ]; then
@@ -107,13 +115,6 @@ export VISUAL='vim'
 alias gaa='git add .'
 alias gc='git commit -m'
 
-c(){
-  cd $1
-  RET=$?
-  tree -L 1
-  pwd
-  return $RET
-}
 export PS1="\e[7;1;96m \u \e[0m\e[1;36m >\e[m "
 
 # rust stuff
